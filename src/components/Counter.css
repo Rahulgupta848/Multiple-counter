@@ -1,0 +1,44 @@
+.ele{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: azure;
+     width:120px;
+     height: 50px;
+     border:2px solid black;
+     background-color: rgb(66, 64, 64);
+     margin:5px 5px 2px 5px;
+     
+     
+}
+
+.delete{
+     background-color: rgb(66, 64, 64);
+     width:120px; 
+     border:none;
+     color:white;
+     margin-left: 7px;
+}
+.reset{
+     background-color: rgb(66, 64, 64);
+     width:120px;
+     border:none;
+     color:white;
+     margin-left: 7px;
+}
+.button{
+     display: flex;
+     flex-direction: column;
+}
+.increment{
+    width:30px;
+     font-size: 30px;
+}
+.decrement{
+     width:30px;
+     font-size: 30px;
+}
+.counterdisplay{
+     color:white;
+     font-size: 25px;
+}
